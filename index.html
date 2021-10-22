@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81478abc59.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Basic Calculator <i class="fas fa-calculator"></i></h1>
+        <div class="calculator-grid">
+            <div class="calculator-item calculator-item-1">
+                <span id="before"></span>
+                <span id="result"></span>
+            </div>
+            <div class="calculator-item">
+                <span>AC</span>
+            </div>
+            <div data-operation="exponent" class="calculator-item  calculator-operation">
+                <span>X<sup>x</sup></span>
+            </div>
+            <div class="calculator-item">
+                <span><<</span>
+            </div>
+            <div data-operation="division" class="calculator-item calculator-operation">
+                <span>/</span>
+            </div>
+            <div data-value="7" class="calculator-item calculator-number">
+                <span>7</span>
+            </div>
+            <div data-value="8" class="calculator-item calculator-number">
+                <span>8</span>
+            </div>
+            <div data-value="9" class="calculator-item calculator-number">
+                <span>9</span>
+            </div>
+            <div data-operation="multiply" class="calculator-item calculator-operation">
+                <span>X</span>
+            </div>
+            <div data-value="4" class="calculator-item calculator-number">
+                <span>4</span>
+            </div>
+            <div data-value="5" class="calculator-item calculator-number">
+                <span>5</span>
+            </div>
+            <div data-value="6" class="calculator-item calculator-number">
+                <span>6</span>
+            </div>
+            <div data-operation="rest" class="calculator-item calculator-operation">
+                <span>-</span>
+            </div>
+            <div data-value="1" class="calculator-item calculator-number">
+                <span>1</span>
+            </div>
+            <div data-value="2" class="calculator-item calculator-number">
+                <span>2</span>
+            </div>
+            <div data-value="3" class="calculator-item calculator-number">
+                <span>3</span>
+            </div>
+            <div data-operation="add" class="calculator-item calculator-operation">
+                <span>+</span>
+            </div>
+            <div class="calculator-item">
+            </div>
+            <div data-value="0" class="calculator-item calculator-number">
+                <span>0</span>
+            </div>
+            <div data-operation="dot" class="calculator-item calculator-operation">
+                <span>.</span>
+            </div>
+            <div class="calculator-item">
+                <span>=</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright © 2021 SrChezz <a href="https://github.com/SrChezz" class="icon fab fa-github"></a></p>
+        </footer>
+
+        <script src="javascript.js"></script>
+    </main>
+</body>
+</html>
